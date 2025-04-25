@@ -1,0 +1,25 @@
+{
+  "name": "learn-koa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "packageManager": "pnpm@8.3.0+sha512.c114bc6a9fd23f106a6d4333714364a00d2cb8baa4f41a8c96f8bc74cd8546e87050382a54660b7398d0e96c37baa55cfbce3326f376198993582b9b6a858fb5",
+  "dependencies": {
+    "@koa/bodyparser": "^5.1.1",
+    "@koa/router": "^13.1.0",
+    "koa": "^2.16.1",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.5.0",
+    "nodemon": "^3.1.10"
+  }
+}

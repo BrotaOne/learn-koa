@@ -27,3 +27,17 @@ fetch(
 @koa/bodyparser 处理 body 上参数
 
 @koa/router 处理路由
+
+# env
+
+暂时还没搞定本地虚拟环境的 mysql
+
+```.env
+APP_PORT = 3001
+
+MYSQL_HOST = 
+MYSQL_PORT = 3306
+MYSQL_USER = 
+MYSQL_PASSWORD = 
+MYSQL_DB = 
+```
